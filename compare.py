@@ -1,4 +1,4 @@
-# Compare two csv files. Find items that are IN FILETWO BUT NOT IN FILEONE.
+# Compares two csv files. Outputs items that are IN FILETWO but NOT IN FILEONE as 'update.csv'.
 
 with open('old.csv', 'r') as t1, open('new.csv', 'r') as t2:
     fileone = t1.readlines()
