@@ -1,2 +1,6 @@
-# compare-lists
-Compare two csvs. Print out items that are in filetwo but not fileone.
+# ListCompare
+Compare two csvs.
+
+Requires old.csv (fileone) and new.csv (filetwo).
+
+Outputs items that are IN FILETWO but NOT IN FILEONE as 'update.csv'
